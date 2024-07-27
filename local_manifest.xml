@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- device -->
+<project remote="github" name="xiaomi-blossom-dev/device_xiaomi_blossom"                 path="device/xiaomi/blossom"                revision="staging/lineage-21" clone-depth="1"/>
+<!-- kernel -->
+<project remote="github" name="xiaomi-blossom-dev/device_xiaomi_blossom-kernel"          path="device/xiaomi/blossom-kernel"         revision="fourteen"           clone-depth="1"/>
+<!-- proprietary ;c vendor -->
+<project remote="github" name="xiaomi-blossom-dev/proprietary_vendor_xiaomi_blossom"     path="vendor/xiaomi/blossom"                revision="fourteen"           clone-depth="1"/>
+<!-- mediatek hardware modules -->
+<project remote="github" name="xiaomi-blossom-dev/android_hardware_mediatek"             path="hardware/mediatek"                    revision="fourteen"           clone-depth="1"/>
+<!-- sepolicy vendor -->
+<project remote="github" name="xiaomi-blossom-dev/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr"        revision="fourteen"           clone-depth="1"/>
+</manifest>
